@@ -1,18 +1,18 @@
 const answers = [
-    "Are you sure?",
-    "Are you really sure??",
-    "Are you really realy sure???",
+    "Уверенсің ба?",
+    "Шынымен??",
+    "Точно точно???",
     "Think again?",
-    "Don't believe in second chances?",
-    "Why are you being so cold?",
-    "Maybe we can talk about it?",
-    "I am not going to ask again!",
-    "Ok now this is hurting my feelings!",
-    "You are now just being mean!",
-    "Why are you doing this to me?",
-    "Please give me a chance!",
-    "I am begging you to stop!",
-    "Ok, Lets just start over.."
+    "Екінші шанс берем...?",
+    "Тым қатал екенсің",
+    "Мүмкін сөйлесерміз?",
+    "Больше сұрамайм енді!",
+    "Жүрегім жаралы...",
+    "Өтірік айтпа!",
+    "Не үшін жасап жатсың мұны?",
+    "Маған шанс берші!",
+    "Болды қой енді!",
+    "Окей, қайттан бастайық.."
 ]
 
 const no_button = document.getElementById('no-button');
@@ -40,7 +40,7 @@ no_button.addEventListener('click', () => {
     } else if (i === total - 1) {
         alert(answers[i]);
         i = 0;
-        no_button.innerHTML = "No";
+        no_button.innerHTML = "Жоқ";
         yes_button.style.height = "50px";
         yes_button.style.width = "50px";
         size = 50;
